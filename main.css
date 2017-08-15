@@ -76,3 +76,14 @@ img {
     padding: 0 10px 0 15px;
     border-radius: 15%;
 }
+.result{
+	display: inline-block;
+	margin-bottom: 0px;
+}
+.job{
+	color: blue;
+	margin-right: 5px;
+}
+.date, .company{
+	color: silver;
+}
