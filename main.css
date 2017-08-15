@@ -1,0 +1,78 @@
+body{
+	margin: 0px;
+}
+nav {
+    background-color: gainsboro;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    text-align: right;
+    top: 0px;
+}
+
+
+.nav-left {
+		position: absolute;
+bottom: -10px;
+    display: inline-block;
+    vertical-align: middle;
+    left: 10px;
+}
+
+.nav-right{
+	display: inline-block;
+	position: relative;
+	bottom: 10px;
+	right: 10px;
+}
+a{
+	text-decoration: none;
+	color: purple;
+}
+
+main{
+	padding: 100px;
+}
+
+section.search {
+    margin-bottom: 50px;
+}
+
+
+form{
+	position: relative;
+}
+input[type="text"] {
+    position: absolute;
+    display: inline;
+    border: silver 1px solid;
+    border-radius: 15%;
+}
+img {
+    border: silver 1px solid;
+    display: inline;
+    position: absolute;
+    height: 22px;
+    left: 185px;
+    border-radius: 15%;
+}
+.prev_next{
+
+}
+.prev {
+    border: silver 1px solid;
+    width: 55px;
+    display: inline-block;
+    padding: 0px 5px 0px 10px;
+    border-radius: 15%;
+}.resultnum {
+    display: inline-block;
+    border: silver 1px solid;
+    padding: 0px 20px 0px 20px;
+    border-radius: 15%;
+}.next {
+    display: inline-block;
+    border: 1px silver solid;
+    padding: 0 10px 0 15px;
+    border-radius: 15%;
+}
